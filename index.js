@@ -1,3 +1,2 @@
-const Discord = require('discord.js')
-const client = new Discord.Client()
-client.login('Your Token')
+const bot = require("./event.js")
+bot.login("your token")
